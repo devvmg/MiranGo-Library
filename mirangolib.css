@@ -18,9 +18,10 @@
     
 
     /*TAMANHOS*/
-    --p: 7%;
-    --m: 12%;
-    --g: 17%;
+    --mini: 2%;
+    --p:    7%;
+    --m:   12%;
+    --g:   17%;
 
     /*CORES*/
     --padrao:      aliceblue;
@@ -35,6 +36,9 @@
     --natureza:    rgb(164 , 255 , 205);
     --urbano:      rgb(171 , 175 , 173);
     --medieval:    rgb(110 ,  81 ,  53);
+    --lua:         rgb(255 , 255 , 230);
+    --nebula:      rgb(115 ,  76 , 255);
+    --universo:    rgb(31  ,  13 ,  58);
 
     --claro-t:     rgb( 40 ,  40 ,  40);
     --claro-st:    rgb( 97 ,  97 ,  97);
@@ -143,12 +147,15 @@
 .f-ff      {background-color: var(--fofo);}
 .f-ntz     {background-color: var(--natureza);}
 .f-urb     {background-color: var(--urbano);}
+.f-lua     {background-color: var(--lua);}
+.f-uni     {background-color: var(--universo);}
 .f-mdvl    {background-color: var(--medieval); /**/ color: antiquewhite;}
 
 /*TAMANHOS (PARA BOTÕES)*/
-.tm-b-p {padding: 0.3rem var(--p);}
-.tm-b-m {padding: 0.5rem var(--m);}
-.tm-b-g {padding: 0.5rem var(--g);}
+.tm-b-mn   {padding: 0.3rem var(--mini);}
+.tm-b-p    {padding: 0.3rem var(--p);}
+.tm-b-m    {padding: 0.5rem var(--m);}
+.tm-b-g    {padding: 0.5rem var(--g);}
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 /* =-=-=-=-= COMANDOS PADRÕES | COMANDOS ESTÁNDAR | DEFAULT TAGS =-=-=-=-= */
@@ -161,21 +168,22 @@ html , body
     padding: 0;
     margin: 0;
 }
-h1 , h2 , h3 , h4 , h5 , h6 ,
+
 a        ,
 a:hover  ,
 a:active ,
 a:link   ,
-a:visited {text-decoration: none; color: initial; margin: 0;}
+a:visited {text-decoration: none; color: initial;}
 
+h1 , h2 , h3 , h4 , h5 , h6 {margin: 0;}
 /* => Títulos | Títulos | Tiltes */
 h1 {font-size: 2.6rem;} /* 42px */
 h2 {font-size: 2.3rem;} /* 36px */
 h3 {font-size: 2rem;}   /* 32px */
 
 /* => Subtítulos | Subtítulos | Subtitles */
-h4 {font-size: 1.7rem;} /* 27px */
-h5 {font-size: 1.4rem;} /* 22px */
+h4 {font-size: 1.5rem;} /* 27px */
+h5 {font-size: 1.3rem;} /* 22px */
 h6 {font-size: 1rem;}   /* 16px */
 
 p {font-size: 1.2rem;}  /* 19px */
@@ -188,10 +196,6 @@ input:focus {border: none; /**/ outline: 0.15rem solid rgba(0, 0, 0, 0.4);}
     h1 {font-size: 2.3rem;}
     h2 {font-size: 2rem;}
     h3 {font-size: 1.7rem;}
-
-    h4 {font-size: 1.4rem;}
-    h5 {font-size: 1rem;}
-    h6 {font-size: 0.7rem;}
 }
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
@@ -239,7 +243,6 @@ input:focus {border: none; /**/ outline: 0.15rem solid rgba(0, 0, 0, 0.4);}
 }
 .nav-pdo-int ul li:hover {background-color: rgba(0, 0, 0, 0.1); transition: 0.5s ease-in-out;}
 */
-
 
 
 /* BOTÃO | BOTÓN | BUTTON */
@@ -362,7 +365,7 @@ input:focus {border: none; /**/ outline: 0.15rem solid rgba(0, 0, 0, 0.4);}
 {
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
-    top: 0;
+    top:    0;
     left:   0;
     right:  0;
     bottom: 0;
@@ -381,11 +384,10 @@ input:focus {border: none; /**/ outline: 0.15rem solid rgba(0, 0, 0, 0.4);}
 .mdl-int
 {
     transform: translateY(2rem);
-    height: 25rem;
     width: 25rem;
-    background-color: var(--padrao);
     border-radius: 0.3rem;
 }
+.mdl-int div {padding: 1rem 2rem;}
 .btoModal 
 {
     transform: translate(0.5rem , -0.5rem);
