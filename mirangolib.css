@@ -2,7 +2,7 @@
     |==============================================================================|
     |                          M I R A N G O   L I B R A R Y                       |
     |______________________________________________________________________________|
-    | Versão: Beta 1.1                                                             |
+    | Versão: Beta 1.2                                                             |
     |______________________________________________________________________________|
 */
 
@@ -63,12 +63,21 @@
     margin: 0 auto;
 }
 
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* =-=-=-=-= ESPAÇAMENTO | ESPAZAMIENTO | SPACEMENT =-=-=-=-= */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.space-p {margin: 1rem 0; /**/ height: 0.2rem;}
+.space-m {margin: 3rem 0; /**/ height: 0.2rem;}
+.space-g {margin: 5rem 0; /**/ height: 0.2rem;}
+
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 /* =-=-=-=-= CLASSES PADRÕES | CLASES ESTÁNDAR | DEFAULT CLASSES =-=-=-=-= */
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
 .cx-p {margin: 0 auto; /**/ max-width:   75rem; /**/ width:   75rem;} /* 1200px */
-.cx-s {margin: 0 auto; /**/ max-width: 37.5rem; /**/ width: 37.5rem;} /*  600px */
+.cx-s {margin: 0 auto; /**/ max-width: 62.5rem; /**/ width: 62.5rem;} /* 1000px */
+.cx-t {margin: 0 auto; /**/ max-width: 37.5rem; /**/ width: 37.5rem;} /*  600px */
+
 
 .ln
 {
@@ -79,7 +88,6 @@
     justify-content: center;
     text-align: center;
 }
-
 .cl
 {
     width: 100%;
@@ -100,12 +108,14 @@
 @media screen and (max-width: 75.99rem) /*1199px*/
 {
     .cx-p {max-width:   55rem; /**/ width:   55rem;} /*  880px */
-    .cx-s {max-width: 27.5rem; /**/ width: 27.5rem;} /*  440px */
+    .cx-s {max-width:   55rem; /**/ width:   55rem;} /*  880px */
+    .cx-t {max-width: 27.5rem; /**/ width: 27.5rem;} /*  440px */
 }
 @media screen and (max-width: 56.99rem) /*900px*/
 {
     .cx-p {max-width: 36.2rem; /**/ width: 36.2rem;} /*  580px */
-    .cx-s {max-width: 21.2rem; /**/ width: 21.2rem;} /*  340px */
+    .cx-s {max-width: 36.2rem; /**/ width: 36.2rem;} /*  580px */
+    .cx-t {max-width: 21.2rem; /**/ width: 21.2rem;} /*  340px */
 
     .cl {flex-direction: column;}
     /* ^ */.cl2 {margin:   1rem; width: 90%;}
@@ -117,39 +127,28 @@
 @media screen and (max-width: 36.87rem) /*590px*/
 {
     .cx-p {max-width:    20rem; /**/ width:   20rem;} /*  320px */
-    .cx-s {max-width: 217.5rem; /**/ width: 17.5rem;} /*  280px */
+    .cx-s {max-width:    20rem; /**/ width:   20rem;} /*  320px */
+    .cx-t {max-width: 217.5rem; /**/ width: 17.5rem;} /*  280px */
 }
 
 /*CORES*/
-/* => Fundos para botões | Fondos Botón | Backgrounds Buttons */
-
-.fb-pdo   {background-color: var(--padrao);}
-/* ^ */.fb-pdo:hover {background-color: rgb(201, 209, 215);}
-
-.fb-scss  {background-color: var(--sucesso);}
-/* ^ */.fb-scss:hover {background-color: rgb(139, 220, 93);}
-
-.fb-prg   {background-color: var(--perigo);}
-/* ^ */.fb-prg:hover{background-color: rgb(209, 94, 79);}
-
-.fb-attc  {background-color: var(--atencao);}
-/* ^ */.fb-attc:hover{background-color: rgb(210, 199, 76);}
-
-.fb-ok    {background-color: var(--okay);}
-/* ^ */.fb-ok:hover  {background-color: rgb(76, 185, 221);}
-
-.fb-escur {background-color: var(--escuridao); /**/ color: aliceblue;}
-/* ^ */.fb-escur:hover{background-color: rgb(0, 0, 0); /**/ color: aliceblue;}
 
 
 /* => Fundos | Fondos | Backgrounds */
+.f-pdo     {background-color: var(--padrao);}
+.f-scss    {background-color: var(--sucesso);}
+.f-prg     {background-color: var(--perigo);}
+.f-attc    {background-color: var(--atencao);}
+.f-ok      {background-color: var(--okay);}
+.f-escur   {background-color: var(--escuridao); /**/ color: aliceblue;}
 .f-mnm     {background-color: var(--minimalista);}
 .f-ff      {background-color: var(--fofo);}
 .f-ntz     {background-color: var(--natureza);}
 .f-urb     {background-color: var(--urbano);}
+.f-mdvl    {background-color: var(--medieval);  /**/ color: antiquewhite;}
 .f-lua     {background-color: var(--lua);}
-.f-uni     {background-color: var(--universo);}
-.f-mdvl    {background-color: var(--medieval); /**/ color: antiquewhite;}
+.f-uni     {background-color: var(--universo);  /**/ color: aliceblue;}
+.f-neb     {background-color: var(--nebula);    /**/ color: aliceblue;}
 
 /*TAMANHOS (PARA BOTÕES)*/
 .tm-b-mn   {padding: 0.3rem var(--mini);}
@@ -197,7 +196,18 @@ input:focus {border: none; /**/ outline: 0.15rem solid rgba(0, 0, 0, 0.4);}
     h2 {font-size: 2rem;}
     h3 {font-size: 1.7rem;}
 }
+@media screen and (max-width: 36.87rem) /*590px*/
+{
+    h1 , h2 , h3 , h4 , h5 , h6 {text-align: center;}
 
+    h1 {font-size: 2.1rem;}
+    h2 {font-size: 1.9rem;}
+    h3 {font-size: 1.5rem;}
+    h4 {font-size: 1.2rem;}
+    h5 {font-size:   1rem;}
+    h6 {font-size:   1rem;}
+
+}
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 /* =-=-=-=-= MODELOS CRIADOS | MODELOS CREADOS | MODELS =-=-=-=-= */
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
@@ -246,24 +256,38 @@ input:focus {border: none; /**/ outline: 0.15rem solid rgba(0, 0, 0, 0.4);}
 
 
 /* BOTÃO | BOTÓN | BUTTON */
-.bto 
+.bto-I
 {
     text-align: center;
     border-radius: 0.3rem;
     border: 0.12rem solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    opacity: 0.8;
 }
-/* ^ */.bto:hover
+/* ^ */.bto-I:hover
     {
         padding: 0.5rem calc(inherit + 3%);
         border: 0.12rem solid rgba(0, 0, 0, 0.0);
         transition: 0.3s ease-in-out;
+        opacity: 1;
     }
-@media screen and (max-width: 56.99rem) /*900px*/
-{
-    
-}
 
+.bto-II
+{
+    text-align: center;
+    background-color: transparent;
+    border: 0.12rem solid var(--escuridao);
+    color: var(--escuridao);
+    cursor: pointer;
+}
+/* ^ */.bto-II:hover
+    {
+        padding: 0.5rem calc(inherit + 3%);
+        background-color: var(--escuridao);
+        color: var(--padrao);
+        border: 0.12rem solid rgb(0, 0, 0);
+        transition: 0.3s ease-in-out;
+    }
 
 /* CARTÃO | TARJETA | CARD */
 .cx-cto
