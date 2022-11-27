@@ -9,7 +9,7 @@
 |
 [Proposal](#-proposta--proposal--propuesta)
 |
-[Documentation](#-documentation)
+[Docs](#-documentation)
 
 </h1>
 
@@ -39,6 +39,8 @@
 ```
 @import: url(https://devvini.com/mirangolib.css);
 ```
+
+OR
 
 <div align="center">
   <p>✦ IN HTML, into the tag 'Body':</p>
@@ -305,33 +307,300 @@
 
 <p>Variables ready to use:</p>
 
-<img src="https://img.shields.io/badge/...-%23f0ffff?style=flat&logo=gear)"> - " --padrao "
+- <b>WARNING</b>: This classes only add a <i>background-color</i> .
 
-<img src="https://img.shields.io/badge/...-%23acff7b?style=flat&logo=gear)"> - " --sucesso "
+<br>
 
-<img src="https://img.shields.io/badge/...-%23ff8a7b?style=flat&logo=gear)"> - " --perigo "
+<p>" f-pdo " - ( class="f-pdo" ) - Padrão</p>
 
-<img src="https://img.shields.io/badge/...-%23fff47b?style=flat&logo=gear)"> - " --atencao "
+- It's a standard white color.
+- <img src="https://img.shields.io/badge/...-%23f0ffff?style=flat&logo=gear)">
 
-<img src="https://img.shields.io/badge/...-%2373dcff?style=flat&logo=gear)"> - " --okay "
+```
+class="f-pdo"
+```
 
-<img src="https://img.shields.io/badge/...-%23252624?style=flat&logo=gear)"> - " --escuridao "
+---
 
-<img src="https://img.shields.io/badge/...-%23e0efff?style=flat&logo=gear)"> - " --minimalista "
+<p>" f-scss " - ( class="f-scss" ) - Sucesso</p>
 
-<img src="https://img.shields.io/badge/...-%23ffbbf1?style=flat&logo=gear)"> - " --fofo "
+- Indicates a success status color.
+- <img src="https://img.shields.io/badge/...-%23acff7b?style=flat&logo=gear)">
 
-<img src="https://img.shields.io/badge/...-%23a4ffcd?style=flat&logo=gear)"> - " --natureza "
+```
+class="f-prg"
+```
 
-<img src="https://img.shields.io/badge/...-%23abafad?style=flat&logo=gear)"> - " --urbano "
+---
 
-<img src="https://img.shields.io/badge/...-%236e5135?style=flat&logo=gear)"> - " --medieval "
+<p>" f-scss " - ( class="f-prg" ) - Perigo</p>
 
-<img src="https://img.shields.io/badge/...-%23ffffe6?style=flat&logo=gear)"> - " --lua "
+- Indicates a danger status color.
+- <img src="https://img.shields.io/badge/...-%23ff8a7b?style=flat&logo=gear)">
 
-<img src="https://img.shields.io/badge/...-%23734cff?style=flat&logo=gear)"> - " --nebula "
+```
+class="f-scss"
+```
 
-<img src="https://img.shields.io/badge/...-%231f0d3a?style=flat&logo=gear)"> - " --universo "
+---
+
+<p>" f-attc " - ( class="f-attc" ) - Atenção</p>
+
+- Indicates a warning status color.
+- <img src="https://img.shields.io/badge/...-%23fff47b?style=flat&logo=gear)">
+
+```
+class="f-attc"
+```
+
+---
+
+<p>" f-ok " - ( class="f-ok" ) - Okay</p>
+
+- It's a light blue color, can means a normal status.
+- <img src="https://img.shields.io/badge/...-%2373dcff?style=flat&logo=gear)">
+
+```
+class="f-ok"
+```
+
+---
+
+<p>" f-escur " - ( class="f-escur" ) - Escuridão</p>
+
+- A dark background.
+- <img src="https://img.shields.io/badge/...-%23252624?style=flat&logo=gear)">
+
+```
+class="f-escur"
+```
+
+---
+
+<p>" f-mnm " - ( class="f-mnm" ) - Minimalista</p>
+
+- A minimalist background.
+- It's a similiar to the class 'f-pdo' with more light.
+- <img src="https://img.shields.io/badge/...-%23e0efff?style=flat&logo=gear)">
+
+```
+class="f-mnm"
+```
+
+---
+
+<p>" f-ff " - ( class="f-ff" ) - Fofo</p>
+
+- A cute background.
+- <img src="https://img.shields.io/badge/...-%23ffbbf1?style=flat&logo=gear)">
+
+```
+class="f-ff"
+```
+
+---
+
+<p>" f-ntz " - ( class="f-ntz" ) - Natureza</p>
+
+- A wild background, a pleasent green.
+- <img src="https://img.shields.io/badge/...-%23a4ffcd?style=flat&logo=gear)">
+
+```
+class="f-ntz"
+```
+
+---
+
+<p>" f-urb " - ( class="f-urb" ) - Urbano</p>
+
+- A urban city background, maybe a dead gray?
+- <img src="https://img.shields.io/badge/...-%23abafad?style=flat&logo=gear)">
+
+```
+class="f-urb"
+```
+
+---
+
+<p>" f-mdvl " - ( class="f-mdvl" ) - Medieval</p>
+
+- A old city background, a medieval brown so... well old.
+- <img src="https://img.shields.io/badge/...-%236e5135?style=flat&logo=gear)">
+
+```
+class="f-mdvl"
+```
+
+---
+
+<p>" f-lua " - ( class="f-lua" ) - Lua</p>
+
+- A piece of the moon in your code, a BRIGHT yellowish white.
+- <img src="https://img.shields.io/badge/...-%23ffffe6?style=flat&logo=gear)">
+
+```
+class="f-lua"
+```
+
+---
+
+<p>" f-neb " - ( class="f-neb" ) - Nebula</p>
+
+- A purple Nebulous background.
+- <img src="https://img.shields.io/badge/...-%23734cff?style=flat&logo=gear)">
+
+```
+class="f-neb"
+```
+
+---
+
+<p>" f-uni " - ( class="f-uni" ) - Universo</p>
+
+- If the dark matter wasn't maybe it would be so, a beautiful dark purple.
+- <img src="https://img.shields.io/badge/...-%231f0d3a?style=flat&logo=gear)">
+
+```
+class="f-uni"
+```
+
+
+<br>
+
+<h3>⇾ Botões | Buttons | Botones:</h3>
+
+<img src="https://img.shields.io/badge/Language-pt_BR_🟨🟩-%23FFF?style=flat-square&logo=gear)">
+<p>
+  Os botões foram construídos para que sejam intuitivos independente da escolha da cor de fundo.
+   Para os botões, são necessários a adição de 3 classes, <b>Classe Principal do Botão</b>, 
+  <b>Classe do Tamanho</b> e <b>Classe da Cor</b>, as classes dos botões apresentam a Letra 'B' nelas para se
+  referir a uma classe de botão.
+</p>
+
+<img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
+<p>
+  The buttons were built in order to agregate with any background color classes.
+  To the buttons are necessary add 3 classes: <b>Main Class Button</b> , <b>Size Class</b> and <b>Color Class</b>.
+  The Button Classes boast the letter 'B' inside them to refer to the buttons.
+</p>
+
+<img src="https://img.shields.io/badge/Language-es_ES_🟥🟨-%23FFF?style=flat-square&logo=gear)">
+<p>
+  Los botones fueram creados com el objetivo de agregar con cualquiera clase de color de fondo.
+  Para estos elementos son necesarios 3 clases, <b>Clase principal</b> , <b>Clase de Tamaño</b> y <b>Clase de Color</b>. 
+  Las clases de botón presentan la letra 'B' en su composición   para referirse a los botones. 
+</p>
+
+<p>Main Class Button - I:</p>
+<p>" bto-I " - ( class="bto-I" ):</p>
+- Without this class you can't get the standard button styles;
+- Standard button, first button model.
+
+
+<br>
+
+
+<h6>Size Class:</h6>
+<p>" tm-b-mn " - ( class="tm-b-mn" ):</p>
+
+- *Minimum Size*
+
+
+```
+<button class="bto-I tm-b-mn f-ok">Minimum</button>
+```
+
+<p>" tm-b-p " - ( class="tm-b-p" ):</p>
+
+- *Small Size*
+
+
+```
+<button class="bto-I tm-b-p f-scss">Small</button>
+```
+
+<p>" tm-b-m " - ( class="tm-b-m" ):</p>
+
+- *Medium Size*
+
+
+```
+<button class="bto-I tm-b-m f-prg">Medium</button>
+```
+
+<p>" tm-b-g " - ( class="tm-b-g" ):</p>
+
+- *Large Size*
+
+
+```
+<button class="bto-I tm-b-g f-ff">Large</button>
+```
+
+
+<br>
+
+<h6>Color Class:</h6>
+<p>- You can use the other colors mentioned above to colour your button!</p>
+
+
+
+<p>Main Class Button - II:</p>
+<p>" bto-II " - ( class="bto-II" ):</p>
+- Without this class you can't get the standard button styles;
+- Minimalist button, second model button.
+
+
+<br>
+
+
+<h6>Size Class:</h6>
+<p>" tm-b-mn " - ( class="tm-b-mn" ):</p>
+
+- *Minimum Size*
+
+
+```
+<button class="bto-II tm-b-mn">Minimum</button>
+```
+
+<p>" tm-b-p " - ( class="tm-b-p" ):</p>
+
+- *Small Size*
+
+
+```
+<button class="bto-II tm-b-p f-scss">Small</button>
+```
+
+<p>" tm-b-m " - ( class="tm-b-m" ):</p>
+
+- *Medium Size*
+
+
+```
+<button class="bto-II tm-b-m f-prg">Medium</button>
+```
+
+<p>" tm-b-g " - ( class="tm-b-g" ):</p>
+
+- *Large Size*
+
+
+```
+<button class="bto-II tm-b-g f-ff">Large</button>
+```
+
+
+<br>
+
+<h6>Color Class:</h6>
+<p>- WARNING: THIS BUTTON DON'T ACCEPT A BACKGROUND COLOR BECAUSE THEY ALREADY HAVE A DEFAULT COLOR!</p>
+
+
+
+
+<hr>
 
 <p align="center">Acesse meu site e entre em contato comigo!</p>
 <p align="center">http://devvini.com/</p>
