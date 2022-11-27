@@ -24,7 +24,7 @@
 
 <img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
 <p> - WITHOUT DOWNLOADS!!</p>
-<p> To include the library in your documentation you need to copy and paste some of codes below:</p>
+<p> To include the library in your documentation you need to copy and paste one of codes below:</p>
 
 <img src="https://img.shields.io/badge/Language-es_ES_🟥🟨-%23FFF?style=flat-square&logo=gear)">
 <p> - SIN DESCARGAS!!</p>
@@ -63,10 +63,10 @@ OR
 
 <img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
 <p>
-  MiranGo is a CSS3 library. That have an initial idea of facilitating 
-  basics and repetitives features when we talks of responsivity and important
-  models to build of WebSites. Always trying gives more freedom to the developer
-  without affect the quality and the statndardization.
+  MiranGo is a CSS3 library that have the main goal of facilitating 
+  basics and repetitives features related on responsivity and important
+  models to build of WebSites, always trying gives more freedom to the developer
+  without affect the quality and the standardization.
 </p>
 
 <img src="https://img.shields.io/badge/Language-es_ES_🟥🟨-%23FFF?style=flat-square&logo=gear)">
@@ -89,7 +89,7 @@ OR
 
 <img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
 <p>
-  First, the MiranGo is a CSS Classes Library with classes ready to use. So to apply these
+  First of all, the MiranGo is a CSS Classes Library with classes ready to use. So to apply these
   classes you need to increase inside the Class Atributte ' class="..." '.
 </p>
 
@@ -105,16 +105,16 @@ OR
 
 <img src="https://img.shields.io/badge/Language-pt_BR_🟨🟩-%23FFF?style=flat-square&logo=gear)">
 <p>
-  Estas classes são necessárias caso queira que seja aplicada a responsividade do MiranGo.
+  Essas classes são necessárias caso queira que seja aplicada a responsividade do MiranGo.
   São caixas(melhor utilizadas em <b>DIVs</b>) que deixam um espaçamento padrão e agradável 
   ao usuário(UX) deixando o conteúdo mais bem posicionado e com limite.
 </p>
 
 <img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
 <p>
-  These Classes are required if you want that was apply the responsivity of the MiranGo.
-  They are boxes(better utilization in <b>DIVs</b>) that give statndard and nice spacement to the
-  user experience(UX). Offering a better positioning container with limit.
+  Those Classes are required if you want them to be apply in the responsivity of the MiranGo.
+  They are boxes(better utilization in <b>DIVs</b>) that give standard and nice spacement to the
+  user experience(UX), offering a better positioning container with margin.
 </p>
 
 <img src="https://img.shields.io/badge/Language-es_ES_🟥🟨-%23FFF?style=flat-square&logo=gear)">
@@ -169,7 +169,7 @@ OR
 
 <img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
 <p>
-  Columns: They are proportional taking advantage 100% of the Dad Class and they are totaly
+  Columns: They are proportional taking fully advantage of the Father Class and they are totaly responsives.
 </p>
 
 <img src="https://img.shields.io/badge/Language-es_ES_🟥🟨-%23FFF?style=flat-square&logo=gear)">
@@ -283,8 +283,8 @@ OR
 
 <img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
 <p>
-  The colors palette was selected to made a better visual elements and facilitade the use of
-  them. So the name of the classes was chosen in order to make more easy to the brazilians/spanish developers 
+  The palette's colors was selected to made a better visual elements and facilitade the use of
+  them. So the name of the classes was chosen in order to make easier to the brazilians/spanish developers 
   (*IT IS NOT A HINDRANCE TO OTHERS LANGUAGES, THEY ARE EASY TO USE!!*).
 </p>
 <p>
@@ -480,7 +480,7 @@ class="f-uni"
 <img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
 <p>
   The buttons were built in order to agregate with any background color classes.
-  To the buttons are necessary add 3 classes: <b>Main Class Button</b> , <b>Size Class</b> and <b>Color Class</b>.
+  It necessary add 3 classes: <b>Main Class Button</b> , <b>Size Class</b> and <b>Color Class</b>.
   The Button Classes boast the letter 'B' inside them to refer to the buttons.
 </p>
 
