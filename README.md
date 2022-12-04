@@ -491,6 +491,8 @@ class="f-uni"
   Las clases de botón presentan la letra 'B' en su composición   para referirse a los botones. 
 </p>
 
+---
+
 <p>Main Class Button - I:</p>
 <p>" bto-I " - ( class="bto-I" ):</p>
 - Without this class you can't get the standard button styles;
@@ -543,7 +545,7 @@ class="f-uni"
 <h6>Color Class:</h6>
 <p>- You can use the other colors mentioned above to colour your button!</p>
 
-
+---
 
 <p>Main Class Button - II:</p>
 <p>" bto-II " - ( class="bto-II" ):</p>
@@ -596,6 +598,124 @@ class="f-uni"
 
 <h6>Color Class:</h6>
 <p>- WARNING: THIS BUTTON DON'T ACCEPT A BACKGROUND COLOR BECAUSE THEY ALREADY HAVE A DEFAULT COLOR!</p>
+
+
+<br>
+
+<h3>⇾ Cartões | Cards | Tarjetas:</h3>
+
+<img src="https://img.shields.io/badge/Language-pt_BR_🟨🟩-%23FFF?style=flat-square&logo=gear)">
+<p>
+  Os cartões são elementos que servem para apresentar ao usuário mensagens chamativas que engajam o
+  usuário através da imagem chamativa, animação e texto curto e direto.
+</p>
+
+<img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
+<p>
+  Cards is an element that use short and handiness messages, animations and flashes images to engage 
+  the user in the theme.
+</p>
+
+<img src="https://img.shields.io/badge/Language-es_ES_🟥🟨-%23FFF?style=flat-square&logo=gear)">
+<p>
+  Las tarjetas son elementos que utilizan de mensages sencillas y fácil de entender, animaciones y 
+  imagenes relumbrantes que entretenem el usuário en lo tema.
+</p>
+
+<br>
+
+<p>Example of code with a group with 3 Cards, recommendable use up to 4 Cards.</p>
+
+```
+<div class="cx-cto cl">
+
+    <div class="cl3">
+        <div class="cto">
+            <div class="cto-i">
+                <img src="YOUR_IMAGE.jpg"> <!--YOUR IMAGE-->
+            </div><!--cto-i-->
+            <div class="cto-tl">
+                <h5>Seu_Título_Cartao1</h5>
+            </div><!--cto-tl-->
+            <div class="cto-tx">
+                <p> <!--YOUR TEXT-->
+                    Seu Texto lorem, ipsum dolor sit amet consectetur adipisicing elit.     
+                    Quo nemo quod corrupti! Architecto est neque     
+                    magnam vel doloribus veniam?    
+                </p>
+            </div><!--cto-tx-->
+        </div><!--cto-->
+    </div><!--cl3-->
+
+
+    <div class="cl3">
+        <div class="cto">
+            <div class="cto-i">
+                <img src="YOUR_IMAGE.jpg"> <!--YOUR IMAGE-->
+            </div><!--cto-i-->
+            <div class="cto-tl">
+                <h5>Seu_Título_Cartao2</h5>
+            </div><!--cto-tl-->
+            <div class="cto-tx">
+                <p> <!--YOUR TEXT-->
+                    Seu Texto lorem, ipsum dolor sit amet consectetur adipisicing elit.     
+                    Quo nemo quod corrupti! Architecto est neque     
+                    magnam vel doloribus veniam?    
+                    </p>
+            </div><!--cto-tx-->
+        </div><!--cto-->
+    </div><!--cl3-->
+
+
+    <div class="cl3">
+        <div class="cto">
+            <div class="cto-i">
+                <img src="YOUR_IMAGE.jpg"> <!--YOUR IMAGE-->
+            </div><!--cto-i-->
+            <div class="cto-tl">
+                <h5>Seu_Título_Cartao3</h5>
+            </div><!--cto-tl-->
+                <div class="cto-tx">
+                    <p> <!--YOUR TEXT-->
+                        Seu Texto lorem, ipsum dolor sit amet consectetur adipisicing elit.     
+                        Quo nemo quod corrupti! Architecto est neque     
+                        magnam vel doloribus veniam?    
+                    </p>
+                </div><!--cto-tx-->
+            </div><!--cto-->
+        </div><!--cl3-->
+        
+    </div><!--cx-cto cl-->
+```
+
+<p>
+  If you want to add more Cards or take Cards you will have to change the Column Classes(<b>c2,c3,c4,c5 or c6</b>)
+  and copy and paste the code blocks of cards according to the number of cards, licking that is recommended to use 
+  from one to four cards.
+</p>
+
+<br>
+
+<h3>⇾ Modal: </h3>
+
+<img src="https://img.shields.io/badge/Language-pt_BR_🟨🟩-%23FFF?style=flat-square&logo=gear)">
+<p>
+  O Modal é um elemento bom caso queira mostrar uma informação mais aprofundada de algo sem ter que
+  levar o usuário para outra página, deixando seus sites mais imersivos.
+</p>
+
+<img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
+<p>
+  The Modals are good elements if you want to show a depth information to any themes without direct the
+  user to other page, creating a website more immersive.
+</p>
+
+<img src="https://img.shields.io/badge/Language-es_ES_🟥🟨-%23FFF?style=flat-square&logo=gear)">
+<p>
+  Los Modals son buenos elementos si quieres mostrar una información con profundidad sin llevar el 
+  usuario a otra página, dejando sus websites más inmersivos.
+</p>
+
 
 
 
