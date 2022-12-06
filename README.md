@@ -2,7 +2,7 @@
 
 <h1 align="center"> 
 <img src="https://img.shields.io/badge/Status-Em_Construção_🧱-%234696db?style=for-the-badge&logo=gear)">
-<img src="https://img.shields.io/badge/Version-Beta_1.2-%234696db?style=for-the-badge&logo=gear)">
+<img src="https://img.shields.io/badge/Version-Beta_1.5-%234696db?style=for-the-badge&logo=gear)">
 
 
 [Get Started](#-get-mirango-library)
@@ -716,9 +716,42 @@ class="f-uni"
   usuario a otra página, dejando sus websites más inmersivos.
 </p>
 
+```
+<div>
+    <h2>Modal</h2>
+        <a href="#abrirModal">
+            <button class="bto-I f-ok tm-b-p">See More</button> <!--MODAL BUTTON-->
+        </a>
+        <div id="abrirModal" class="fnd-mdl">
 
+            <span class="ln">
+                <div class="mdl-int f-lua">
+                    <a href="#fecharModal"><button class="btoModal bto-I f-prg">X</button></a>
+                    <div>
+                        <h3>Seu Título Modal</h3>       <!--MODAL TITLE-->
+                        <p>                             <!--MODAL TEXT-->
+                            Seu Texto Lorem, ipsum dolor sit amet consectetur 
+                            adipisicing elit. Temporibus asperiores aspernatur magni 
+                            corporis blanditiis beatae praesentium saepe labore
+                            aperiam culpa deserunt quia quo sequi, vel nesciunt
+                            inventore atque. Eius, ea.
+                        </p>
+                    </div>
+                </div><!--mdl-int-->
+            </span><!--ln-->
 
+        </div><!--fnd-mdl-->
+</div>
+```
 
+<p>
+  Warning: When you get the modal above, it have in 3rd and 6th line a name id "abrirModal" 
+  that means 'Open Modal', if you add 2 or more modals in your website these IDs can be 
+  conflicted. So you will alter the name IDs, like this:
+</p>
+<p>
+  Where is the First Modal you can rename the id to "abrirModal-1", in Second Modal "abrirModal-2" and so on.
+</p>
 
 <hr>
 
