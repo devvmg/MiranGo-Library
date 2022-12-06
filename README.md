@@ -307,7 +307,7 @@ OR
 
 <p>Variables ready to use:</p>
 
-- <b>WARNING</b>: This classes only add a <i>background-color</i> .
+- <b>WARNING</b>: This classes only add <i>background-color</i> .
 
 <br>
 
@@ -328,18 +328,18 @@ class="f-pdo"
 - <img src="https://img.shields.io/badge/...-%23acff7b?style=flat&logo=gear)">
 
 ```
-class="f-prg"
+class="f-scss"
 ```
 
 ---
 
-<p>" f-scss " - ( class="f-prg" ) - Perigo</p>
+<p>" f-prg " - ( class="f-prg" ) - Perigo</p>
 
 - Indicates a danger status color.
 - <img src="https://img.shields.io/badge/...-%23ff8a7b?style=flat&logo=gear)">
 
 ```
-class="f-scss"
+class="f-prg"
 ```
 
 ---
@@ -357,7 +357,7 @@ class="f-attc"
 
 <p>" f-ok " - ( class="f-ok" ) - Okay</p>
 
-- It's a light blue color, can means a normal status.
+- It's a light blue color means a normal status.
 - <img src="https://img.shields.io/badge/...-%2373dcff?style=flat&logo=gear)">
 
 ```
@@ -402,7 +402,7 @@ class="f-ff"
 
 <p>" f-ntz " - ( class="f-ntz" ) - Natureza</p>
 
-- A wild background, a pleasent green.
+- A wild background, a nice green.
 - <img src="https://img.shields.io/badge/...-%23a4ffcd?style=flat&logo=gear)">
 
 ```
@@ -457,7 +457,7 @@ class="f-neb"
 
 <p>" f-uni " - ( class="f-uni" ) - Universo</p>
 
-- If the dark matter wasn't maybe it would be so, a beautiful dark purple.
+- If the dark matter wasn't so dark, it probably would a beautiful dark purple, artist vision...
 - <img src="https://img.shields.io/badge/...-%231f0d3a?style=flat&logo=gear)">
 
 ```
@@ -471,8 +471,8 @@ class="f-uni"
 
 <img src="https://img.shields.io/badge/Language-pt_BR_🟨🟩-%23FFF?style=flat-square&logo=gear)">
 <p>
-  Os botões foram construídos para que sejam intuitivos independente da escolha da cor de fundo.
-   Para os botões, são necessários a adição de 3 classes, <b>Classe Principal do Botão</b>, 
+  Os botões foram construídos para que sejam intuitivos, independente da escolha da cor de fundo.
+  Para os botões, são necessários a adição de 3 classes, <b>Classe Principal do Botão</b>, 
   <b>Classe do Tamanho</b> e <b>Classe da Cor</b>, as classes dos botões apresentam a Letra 'B' nelas para se
   referir a uma classe de botão.
 </p>
@@ -480,7 +480,7 @@ class="f-uni"
 <img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
 <p>
   The buttons were built in order to agregate with any background color classes.
-  It necessary add 3 classes: <b>Main Class Button</b> , <b>Size Class</b> and <b>Color Class</b>.
+  It necessary to add 3 classes: <b>Main Class Button</b> , <b>Size Class</b> and <b>Color Class</b>.
   The Button Classes boast the letter 'B' inside them to refer to the buttons.
 </p>
 
@@ -543,7 +543,7 @@ class="f-uni"
 <br>
 
 <h6>Color Class:</h6>
-<p>- You can use the other colors mentioned above to colour your button!</p>
+<p>- You can use the other colors previously mentioned to colour your button!</p>
 
 ---
 
@@ -612,7 +612,7 @@ class="f-uni"
 
 <img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
 <p>
-  Cards is an element that use short and handiness messages, animations and flashes images to engage 
+  Cards is an element that use small and handiness messages, animations and flashes images to engage 
   the user in the theme.
 </p>
 
@@ -689,9 +689,9 @@ class="f-uni"
 ```
 
 <p>
-  If you want to add more Cards or take Cards you will have to change the Column Classes(<b>c2,c3,c4,c5 or c6</b>)
-  and copy and paste the code blocks of cards according to the number of cards, licking that is recommended to use 
-  from one to four cards.
+  If you want to add more Cards or erase Cards you will have to change the Column Classes(<b>c2,c3,c4,c5 or c6</b>)
+  and copy and paste the code blocks of cards according to the number of cards. Tips: Is recommended to use 
+  between one to four cards.
 </p>
 
 <br>
@@ -707,7 +707,7 @@ class="f-uni"
 <img src="https://img.shields.io/badge/Language-en_US_🟦🟥-%23FFF?style=flat-square&logo=gear)">
 <p>
   The Modals are good elements if you want to show a depth information to any themes without direct the
-  user to other page, creating a website more immersive.
+  user to other page, creating more immersive website.
 </p>
 
 <img src="https://img.shields.io/badge/Language-es_ES_🟥🟨-%23FFF?style=flat-square&logo=gear)">
@@ -746,7 +746,7 @@ class="f-uni"
 
 <p>
   Warning: When you get the modal above, it have in 3rd and 6th line a name id "abrirModal" 
-  that means 'Open Modal', if you add 2 or more modals in your website these IDs can be 
+  that means 'Open Modal'. If you add 2 or more modals in your website, these IDs can become 
   conflicted. So you will alter the name IDs, like this:
 </p>
 <p>
